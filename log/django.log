@@ -1,0 +1,548 @@
+INFO 2024-04-14 23:05:28,373 autoreload 28692 8692 Watching for file changes with StatReloader
+WARNING 2024-04-14 23:05:33,120 log 28692 14560 Not Found: /
+WARNING 2024-04-14 23:05:33,123 basehttp 28692 14560 "GET / HTTP/1.1" 404 2169
+INFO 2024-04-14 23:09:55,560 autoreload 28692 8692 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-14 23:09:56,654 autoreload 34044 33096 Watching for file changes with StatReloader
+INFO 2024-04-14 23:10:09,034 autoreload 34044 33096 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-14 23:10:09,992 autoreload 20856 21856 Watching for file changes with StatReloader
+INFO 2024-04-14 23:10:17,986 autoreload 20856 21856 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-14 23:10:18,817 autoreload 30876 31888 Watching for file changes with StatReloader
+WARNING 2024-04-14 23:10:36,107 log 30876 28176 Not Found: /
+WARNING 2024-04-14 23:10:36,126 basehttp 30876 28176 "GET / HTTP/1.1" 404 2169
+INFO 2024-04-14 23:10:47,790 views 30876 28176 Index page accessed
+INFO 2024-04-14 23:10:47,791 basehttp 30876 28176 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2024-04-14 23:10:56,553 basehttp 30876 28176 "GET /prefix/about HTTP/1.1" 301 0
+ERROR 2024-04-14 23:10:56,559 views 30876 11572 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp\views.py", line 11, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-14 23:10:56,561 basehttp 30876 11572 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-17 22:13:57,176 autoreload 26400 34104 Watching for file changes with StatReloader
+WARNING 2024-04-17 22:14:01,333 log 26400 31232 Not Found: /
+WARNING 2024-04-17 22:14:01,334 basehttp 26400 31232 "GET / HTTP/1.1" 404 2169
+WARNING 2024-04-17 22:14:01,513 log 26400 31232 Not Found: /favicon.ico
+WARNING 2024-04-17 22:14:01,514 basehttp 26400 31232 "GET /favicon.ico HTTP/1.1" 404 2220
+INFO 2024-04-17 22:18:34,449 autoreload 12796 15860 Watching for file changes with StatReloader
+INFO 2024-04-21 16:31:56,148 autoreload 19724 35364 Watching for file changes with StatReloader
+WARNING 2024-04-21 16:31:59,158 log 19724 17268 Not Found: /
+WARNING 2024-04-21 16:31:59,160 basehttp 19724 17268 "GET / HTTP/1.1" 404 2274
+WARNING 2024-04-21 16:31:59,334 log 19724 17268 Not Found: /favicon.ico
+WARNING 2024-04-21 16:31:59,336 basehttp 19724 17268 "GET /favicon.ico HTTP/1.1" 404 2325
+WARNING 2024-04-21 16:32:14,234 log 19724 17268 Not Found: /les3/
+WARNING 2024-04-21 16:32:14,234 basehttp 19724 17268 "GET /les3/ HTTP/1.1" 404 2548
+INFO 2024-04-21 16:32:28,128 basehttp 19724 17268 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2024-04-21 16:32:28,135 basehttp 19724 24688 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2024-04-21 16:32:34,727 basehttp 19724 24688 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-04-21 16:35:44,556 autoreload 19724 35364 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-21 16:35:45,468 autoreload 16644 25544 Watching for file changes with StatReloader
+INFO 2024-04-21 16:36:11,384 autoreload 16644 25544 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-21 16:36:14,020 autoreload 14140 26688 Watching for file changes with StatReloader
+INFO 2024-04-21 16:41:25,552 autoreload 14140 26688 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 16:41:26,557 autoreload 18144 31112 Watching for file changes with StatReloader
+INFO 2024-04-21 16:42:24,732 autoreload 18144 31112 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 16:42:25,715 autoreload 32444 3268 Watching for file changes with StatReloader
+INFO 2024-04-21 16:43:25,583 autoreload 32444 3268 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 16:43:26,570 autoreload 19588 31656 Watching for file changes with StatReloader
+INFO 2024-04-21 16:43:42,243 autoreload 19588 31656 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 16:43:43,220 autoreload 22332 24104 Watching for file changes with StatReloader
+INFO 2024-04-21 16:45:10,965 autoreload 22332 24104 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 16:45:12,528 autoreload 35820 15032 Watching for file changes with StatReloader
+INFO 2024-04-21 16:46:35,760 basehttp 35820 18872 "GET /les3/posts/2022 HTTP/1.1" 301 0
+INFO 2024-04-21 16:46:35,766 basehttp 35820 34896 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-04-21 16:46:41,578 basehttp 35820 34896 "GET /les3/posts/2022/6 HTTP/1.1" 301 0
+INFO 2024-04-21 16:46:41,585 basehttp 35820 27612 "GET /les3/posts/2022/6/ HTTP/1.1" 200 21
+INFO 2024-04-21 16:46:48,089 basehttp 35820 27612 "GET /les3/posts/2022/6/prrrr HTTP/1.1" 301 0
+INFO 2024-04-21 16:46:48,095 basehttp 35820 5688 "GET /les3/posts/2022/6/prrrr/ HTTP/1.1" 200 359
+INFO 2024-04-21 16:54:07,434 autoreload 35820 15032 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 16:54:08,329 autoreload 20008 4164 Watching for file changes with StatReloader
+INFO 2024-04-21 16:54:38,197 autoreload 20008 4164 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 16:54:39,162 autoreload 26760 32764 Watching for file changes with StatReloader
+INFO 2024-04-21 16:55:06,506 autoreload 26760 32764 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-21 16:55:07,367 autoreload 30004 29832 Watching for file changes with StatReloader
+INFO 2024-04-21 16:56:14,162 basehttp 30004 35052 "GET /les3 HTTP/1.1" 301 0
+INFO 2024-04-21 16:56:14,175 basehttp 30004 16740 "GET /les3/ HTTP/1.1" 200 164
+INFO 2024-04-21 17:03:20,369 autoreload 30004 29832 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 17:03:21,537 autoreload 34244 12028 Watching for file changes with StatReloader
+INFO 2024-04-21 17:04:49,293 autoreload 34244 12028 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 17:04:50,160 autoreload 17576 16028 Watching for file changes with StatReloader
+INFO 2024-04-21 17:05:08,277 autoreload 17576 16028 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 17:05:09,408 autoreload 30924 14200 Watching for file changes with StatReloader
+INFO 2024-04-21 17:05:38,247 autoreload 30924 14200 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-21 17:05:39,458 autoreload 18756 15712 Watching for file changes with StatReloader
+INFO 2024-04-21 17:07:01,223 autoreload 18756 15712 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-21 17:07:03,915 autoreload 12692 13972 Watching for file changes with StatReloader
+INFO 2024-04-21 17:07:18,421 basehttp 12692 9532 "GET /les3/if HTTP/1.1" 301 0
+INFO 2024-04-21 17:07:18,436 basehttp 12692 10180 "GET /les3/if/ HTTP/1.1" 200 300
+INFO 2024-04-21 22:15:43,466 autoreload 12692 13972 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 22:15:44,466 autoreload 33052 24116 Watching for file changes with StatReloader
+INFO 2024-04-21 22:18:04,356 autoreload 33052 24116 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-21 22:18:05,442 autoreload 7744 21664 Watching for file changes with StatReloader
+INFO 2024-04-21 22:18:14,013 basehttp 7744 27916 "GET /les3/for HTTP/1.1" 301 0
+INFO 2024-04-21 22:18:14,023 basehttp 7744 3724 "GET /les3/for/ HTTP/1.1" 200 695
+INFO 2024-04-21 22:31:32,936 autoreload 7744 21664 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 22:31:34,059 autoreload 1836 35140 Watching for file changes with StatReloader
+INFO 2024-04-21 22:31:45,726 autoreload 1836 35140 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 22:31:46,793 autoreload 27992 17184 Watching for file changes with StatReloader
+INFO 2024-04-21 22:31:56,684 autoreload 27992 17184 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 22:31:58,398 autoreload 29660 31168 Watching for file changes with StatReloader
+INFO 2024-04-21 22:32:10,203 autoreload 29660 31168 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 22:32:11,192 autoreload 28468 20092 Watching for file changes with StatReloader
+INFO 2024-04-21 22:32:15,196 autoreload 28468 20092 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 22:32:16,908 autoreload 32808 28368 Watching for file changes with StatReloader
+INFO 2024-04-21 22:33:16,362 autoreload 32808 28368 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-21 22:33:17,721 autoreload 24264 23964 Watching for file changes with StatReloader
+INFO 2024-04-21 22:35:12,906 autoreload 24264 23964 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-21 22:35:13,898 autoreload 31364 33016 Watching for file changes with StatReloader
+INFO 2024-04-21 22:35:32,432 basehttp 31364 12284 "GET /les3/index HTTP/1.1" 301 0
+INFO 2024-04-21 22:35:32,445 basehttp 31364 31840 "GET /les3/index/ HTTP/1.1" 200 197
+INFO 2024-04-21 22:35:41,736 basehttp 31364 31840 "GET /les3/about HTTP/1.1" 301 0
+INFO 2024-04-21 22:35:41,742 basehttp 31364 33956 "GET /les3/about/ HTTP/1.1" 200 204
+INFO 2024-04-21 22:43:20,075 autoreload 31364 33016 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-21 22:43:20,922 autoreload 12028 23964 Watching for file changes with StatReloader
+INFO 2024-04-21 22:44:53,785 basehttp 12028 35468 "GET /les3/about/ HTTP/1.1" 200 268
+WARNING 2024-04-21 22:45:01,247 log 12028 35468 Not Found: /les3/штвуч
+WARNING 2024-04-21 22:45:01,248 basehttp 12028 35468 "GET /les3/%D1%88%D1%82%D0%B2%D1%83%D1%87 HTTP/1.1" 404 4090
+INFO 2024-04-21 22:45:14,000 basehttp 12028 35468 "GET /les3/index/ HTTP/1.1" 200 197
+INFO 2024-04-21 22:49:08,725 autoreload 12028 23964 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-21 22:49:09,881 autoreload 10484 33300 Watching for file changes with StatReloader
+INFO 2024-04-21 22:49:30,357 autoreload 10484 33300 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-21 22:49:31,199 autoreload 35576 20008 Watching for file changes with StatReloader
+INFO 2024-04-21 22:50:05,115 autoreload 35576 20008 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-21 22:50:06,128 autoreload 17580 14444 Watching for file changes with StatReloader
+INFO 2024-04-21 22:50:15,329 autoreload 17580 14444 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-21 22:50:16,339 autoreload 32260 10496 Watching for file changes with StatReloader
+INFO 2024-04-21 22:52:21,356 autoreload 32260 10496 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-21 22:52:22,516 autoreload 24880 12752 Watching for file changes with StatReloader
+INFO 2024-04-21 22:53:14,776 autoreload 24880 12752 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-21 22:53:15,799 autoreload 26516 5412 Watching for file changes with StatReloader
+INFO 2024-04-21 22:53:20,309 basehttp 26516 18524 "GET /les3/ HTTP/1.1" 200 164
+INFO 2024-04-21 22:53:22,023 basehttp 26516 18524 "GET /les3/ HTTP/1.1" 200 164
+INFO 2024-04-21 22:57:24,923 autoreload 26516 5412 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-21 22:57:25,965 autoreload 14784 11352 Watching for file changes with StatReloader
+INFO 2024-04-21 22:57:45,169 basehttp 14784 30612 "GET /les3/ HTTP/1.1" 200 164
+INFO 2024-04-21 22:57:52,494 basehttp 14784 30612 "GET /les3/ HTTP/1.1" 200 164
+INFO 2024-04-21 22:57:59,784 basehttp 14784 30612 "GET /les3/index/ HTTP/1.1" 200 197
+INFO 2024-04-21 22:58:07,745 basehttp 14784 30612 "GET / HTTP/1.1" 200 197
+INFO 2024-04-21 22:58:15,903 basehttp 14784 30612 "GET / HTTP/1.1" 200 197
+INFO 2024-04-21 22:59:20,777 autoreload 14784 11352 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\models.py changed, reloading.
+INFO 2024-04-21 22:59:21,931 autoreload 18228 29144 Watching for file changes with StatReloader
+INFO 2024-04-21 23:31:37,738 autoreload 33736 26860 Watching for file changes with StatReloader
+INFO 2024-04-21 23:31:40,736 basehttp 33736 10980 "GET / HTTP/1.1" 200 197
+INFO 2024-04-21 23:31:56,799 basehttp 33736 10980 "GET /les3/author/5 HTTP/1.1" 301 0
+INFO 2024-04-21 23:31:56,814 basehttp 33736 26764 "GET /les3/author/5/ HTTP/1.1" 200 1049
+INFO 2024-04-21 23:32:10,803 basehttp 33736 26764 "GET /les3/post/50/ HTTP/1.1" 200 600
+INFO 2024-04-21 23:32:16,456 basehttp 33736 26764 "GET /les3/post/46/ HTTP/1.1" 200 668
+INFO 2024-04-21 23:32:21,137 basehttp 33736 26764 "GET /les3/post/47/ HTTP/1.1" 200 666
+INFO 2024-04-21 23:32:26,449 basehttp 33736 26764 "GET /les3/post/48/ HTTP/1.1" 200 651
+INFO 2024-04-26 22:24:03,649 autoreload 36172 37604 Watching for file changes with StatReloader
+INFO 2024-04-26 22:24:05,972 basehttp 36172 24836 "GET / HTTP/1.1" 200 197
+INFO 2024-04-26 22:25:02,814 basehttp 36172 24836 "GET /les4/user/add/ HTTP/1.1" 200 562
+INFO 2024-04-26 22:28:09,842 basehttp 36172 24836 "GET /les4/user/add/ HTTP/1.1" 200 772
+INFO 2024-04-26 22:28:14,184 basehttp 36172 24836 "POST /les4/user/add/ HTTP/1.1" 200 821
+INFO 2024-04-26 22:28:16,898 basehttp 36172 24836 "POST /les4/user/add/ HTTP/1.1" 200 821
+INFO 2024-04-26 22:32:06,054 basehttp 36172 24836 "POST /les4/user/add/ HTTP/1.1" 200 821
+INFO 2024-04-26 22:37:42,780 autoreload 36172 37604 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 22:37:43,403 autoreload 31332 26764 Watching for file changes with StatReloader
+INFO 2024-04-26 22:40:13,751 autoreload 31332 26764 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 22:40:14,322 autoreload 23976 36456 Watching for file changes with StatReloader
+INFO 2024-04-26 22:40:48,989 autoreload 23976 36456 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\urls.py changed, reloading.
+INFO 2024-04-26 22:40:49,546 autoreload 28648 18152 Watching for file changes with StatReloader
+INFO 2024-04-26 22:41:59,633 basehttp 28648 23212 "GET /les4/forms HTTP/1.1" 301 0
+INFO 2024-04-26 22:41:59,668 basehttp 28648 31728 "GET /les4/forms/ HTTP/1.1" 200 1460
+INFO 2024-04-26 22:42:21,049 basehttp 28648 31728 "POST /les4/forms/ HTTP/1.1" 200 1538
+INFO 2024-04-26 22:47:45,986 autoreload 28648 18152 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-26 22:47:46,547 autoreload 7416 5024 Watching for file changes with StatReloader
+INFO 2024-04-26 22:47:54,386 views 7416 3252 Получили form.cleaned_data={'name': 'Pavel', 'email': 'p81181@yandex.ru', 'age': 19, 'height': 12.0, 'is_active': True, 'birthdate': datetime.date(2024, 4, 26), 'gender': 'M'}.
+INFO 2024-04-26 22:47:54,401 basehttp 7416 3252 "POST /les4/forms/ HTTP/1.1" 200 1538
+INFO 2024-04-26 22:52:43,750 autoreload 7416 5024 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 22:52:44,378 autoreload 13596 37140 Watching for file changes with StatReloader
+INFO 2024-04-26 22:54:50,662 autoreload 13596 37140 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 22:54:51,257 autoreload 13144 11680 Watching for file changes with StatReloader
+INFO 2024-04-26 22:56:54,014 autoreload 13144 11680 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-26 22:56:54,606 autoreload 32480 6048 Watching for file changes with StatReloader
+INFO 2024-04-26 22:58:49,092 autoreload 32480 6048 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-26 22:58:49,670 autoreload 14004 12840 Watching for file changes with StatReloader
+INFO 2024-04-26 22:59:01,534 autoreload 14004 12840 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-26 22:59:02,114 autoreload 34060 33844 Watching for file changes with StatReloader
+INFO 2024-04-26 22:59:05,390 basehttp 34060 30272 "POST /les4/forms/ HTTP/1.1" 200 2237
+INFO 2024-04-26 23:02:55,001 autoreload 34060 33844 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 23:02:55,632 autoreload 37052 12992 Watching for file changes with StatReloader
+INFO 2024-04-26 23:02:58,164 basehttp 37052 16644 "POST /les4/forms/ HTTP/1.1" 200 2233
+INFO 2024-04-26 23:03:30,497 autoreload 37052 12992 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 23:03:31,167 autoreload 36444 23560 Watching for file changes with StatReloader
+INFO 2024-04-26 23:03:33,400 basehttp 36444 29256 "POST /les4/forms/ HTTP/1.1" 200 2237
+INFO 2024-04-26 23:06:15,586 autoreload 36444 23560 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 23:06:16,196 autoreload 24984 35272 Watching for file changes with StatReloader
+INFO 2024-04-26 23:06:56,736 autoreload 24984 35272 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 23:06:57,343 autoreload 20836 3912 Watching for file changes with StatReloader
+INFO 2024-04-26 23:07:30,628 autoreload 20836 3912 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 23:07:31,205 autoreload 36204 20436 Watching for file changes with StatReloader
+INFO 2024-04-26 23:09:11,185 autoreload 36204 20436 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\models.py changed, reloading.
+INFO 2024-04-26 23:09:11,764 autoreload 29208 12732 Watching for file changes with StatReloader
+INFO 2024-04-26 23:09:23,624 autoreload 29208 12732 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\models.py changed, reloading.
+INFO 2024-04-26 23:09:24,197 autoreload 33356 36708 Watching for file changes with StatReloader
+INFO 2024-04-26 23:09:33,971 autoreload 33356 36708 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\models.py changed, reloading.
+INFO 2024-04-26 23:09:34,578 autoreload 11116 17908 Watching for file changes with StatReloader
+INFO 2024-04-26 23:15:16,532 autoreload 37204 26968 Watching for file changes with StatReloader
+INFO 2024-04-26 23:15:28,456 basehttp 37204 23760 "GET /les4/user/add/ HTTP/1.1" 200 782
+INFO 2024-04-26 23:16:34,144 basehttp 37204 23760 "POST /les4/user/add/ HTTP/1.1" 200 948
+INFO 2024-04-26 23:17:46,330 views 37204 23760 Получили name='Pavel', email='p81181@corp.mail.ru', age=42.
+INFO 2024-04-26 23:17:46,333 basehttp 37204 23760 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2024-04-26 23:22:20,856 autoreload 16116 32216 Watching for file changes with StatReloader
+INFO 2024-04-26 23:22:29,857 views 16116 8728 Получили name='Pavel', email='p81181@corp.mail.ru', age=42.
+INFO 2024-04-26 23:22:29,869 basehttp 16116 8728 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2024-04-26 23:22:31,928 views 16116 8728 Получили name='Pavel', email='p81181@corp.mail.ru', age=42.
+INFO 2024-04-26 23:22:31,931 basehttp 16116 8728 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2024-04-26 23:25:51,507 views 16116 8728 Получили name='Pavel', email='p81181@corp.mail.ru', age=42.
+INFO 2024-04-26 23:25:51,510 basehttp 16116 8728 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2024-04-26 23:27:19,345 basehttp 16116 8728 "GET /les4/user/ HTTP/1.1" 200 811
+INFO 2024-04-26 23:27:46,629 views 16116 8728 Получили name='ssssss', email='ss@vk.team', age=45.
+INFO 2024-04-26 23:27:46,639 basehttp 16116 8728 "POST /les4/user/ HTTP/1.1" 200 868
+INFO 2024-04-26 23:29:37,837 autoreload 16116 32216 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-26 23:29:38,495 autoreload 36532 23864 Watching for file changes with StatReloader
+INFO 2024-04-26 23:31:20,505 autoreload 36532 23864 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-26 23:31:21,092 autoreload 30288 21856 Watching for file changes with StatReloader
+INFO 2024-04-26 23:32:17,490 autoreload 30288 21856 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-26 23:32:18,034 autoreload 26860 27704 Watching for file changes with StatReloader
+INFO 2024-04-26 23:32:26,506 autoreload 26860 27704 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-26 23:32:27,099 autoreload 30352 36112 Watching for file changes with StatReloader
+INFO 2024-04-26 23:32:53,466 autoreload 30352 36112 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-26 23:32:54,055 autoreload 33956 36260 Watching for file changes with StatReloader
+INFO 2024-04-26 23:33:15,246 autoreload 33956 36260 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-26 23:33:15,824 autoreload 36076 17340 Watching for file changes with StatReloader
+INFO 2024-04-26 23:35:19,577 autoreload 36076 17340 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\urls.py changed, reloading.
+INFO 2024-04-26 23:35:20,195 autoreload 33004 15184 Watching for file changes with StatReloader
+INFO 2024-04-26 23:36:29,681 autoreload 33004 15184 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp4\urls.py changed, reloading.
+INFO 2024-04-26 23:36:30,248 autoreload 29788 26808 Watching for file changes with StatReloader
+INFO 2024-04-26 23:36:41,541 basehttp 29788 37376 "GET /les4/upload HTTP/1.1" 301 0
+INFO 2024-04-26 23:36:41,558 basehttp 29788 31888 "GET /les4/upload/ HTTP/1.1" 200 583
+INFO 2024-04-26 23:36:49,873 basehttp 29788 31888 "POST /les4/upload/ HTTP/1.1" 200 583
+INFO 2024-04-26 23:38:01,724 basehttp 29788 31888 "POST /les4/upload/ HTTP/1.1" 200 583
+INFO 2024-04-26 23:43:05,483 basehttp 29788 28812 "POST /les4/upload/ HTTP/1.1" 200 583
+INFO 2024-04-26 23:44:00,260 basehttp 29788 28812 "POST /les4/upload/ HTTP/1.1" 200 583
+INFO 2024-05-04 16:46:25,515 autoreload 5140 39360 Watching for file changes with StatReloader
+INFO 2024-05-04 16:46:27,426 basehttp 5140 30128 "GET / HTTP/1.1" 200 197
+INFO 2024-05-04 16:46:34,749 basehttp 5140 30128 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-04 16:46:34,849 basehttp 5140 30128 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-05-04 16:46:34,864 basehttp 5140 15712 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-05-04 16:46:34,864 basehttp 5140 30128 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-05-04 16:46:34,864 basehttp 5140 36884 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2024-05-04 16:46:34,865 basehttp 5140 3824 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-05-04 16:46:34,865 basehttp 5140 26164 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-05-04 16:46:34,872 basehttp 5140 3824 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-05-04 16:46:34,872 basehttp 5140 26164 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-05-04 16:48:38,270 autoreload 5140 39360 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\settings.py changed, reloading.
+INFO 2024-05-04 16:48:38,910 autoreload 38012 37168 Watching for file changes with StatReloader
+INFO 2024-05-04 16:48:43,098 basehttp 38012 34240 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-04 16:58:12,314 autoreload 20516 23832 Watching for file changes with StatReloader
+INFO 2024-05-04 16:58:41,135 basehttp 20516 15100 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-04 16:58:41,191 basehttp 20516 15100 "GET /admin/ HTTP/1.1" 200 5947
+INFO 2024-05-04 16:58:41,259 basehttp 20516 15100 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-05-04 16:58:41,271 basehttp 20516 15032 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-05-04 16:58:41,272 basehttp 20516 15100 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-05-04 16:59:21,267 basehttp 20516 15032 "GET /admin/auth/group/ HTTP/1.1" 200 7786
+INFO 2024-05-04 16:59:21,294 basehttp 20516 15032 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-05-04 16:59:21,302 basehttp 20516 16984 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-05-04 16:59:21,314 basehttp 20516 36160 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-05-04 16:59:21,317 basehttp 20516 15100 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 16:59:21,318 basehttp 20516 32560 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-05-04 16:59:21,322 basehttp 20516 15032 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-05-04 16:59:21,324 basehttp 20516 16984 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-05-04 16:59:21,341 basehttp 20516 32560 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-05-04 16:59:21,342 basehttp 20516 36160 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-05-04 16:59:21,374 basehttp 20516 37912 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-05-04 16:59:21,413 basehttp 20516 15100 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-05-04 16:59:21,420 basehttp 20516 37912 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-05-04 16:59:21,471 basehttp 20516 15100 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-05-04 16:59:45,149 basehttp 20516 15100 "GET /admin/ HTTP/1.1" 200 5947
+INFO 2024-05-04 16:59:54,128 basehttp 20516 15100 "GET /admin/auth/group/ HTTP/1.1" 200 7786
+INFO 2024-05-04 16:59:54,144 basehttp 20516 15100 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 16:59:56,757 basehttp 20516 15100 "GET /admin/ HTTP/1.1" 200 5947
+INFO 2024-05-04 17:00:29,878 basehttp 20516 15100 "GET /admin/auth/user/ HTTP/1.1" 200 11926
+INFO 2024-05-04 17:00:29,898 basehttp 20516 15100 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:00:29,906 basehttp 20516 37912 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-05-04 17:00:29,927 basehttp 20516 37912 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-05-04 17:00:29,927 basehttp 20516 15100 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-05-04 17:01:10,237 basehttp 20516 37912 "GET /admin/auth/user/add/ HTTP/1.1" 200 11241
+INFO 2024-05-04 17:01:10,257 basehttp 20516 15100 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:01:10,259 basehttp 20516 37912 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-05-04 17:01:10,262 basehttp 20516 36160 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-05-04 17:01:10,277 basehttp 20516 15100 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-05-04 17:01:10,279 basehttp 20516 37912 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-05-04 17:02:00,223 basehttp 20516 37912 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-05-04 17:02:00,297 basehttp 20516 37912 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24989
+INFO 2024-05-04 17:02:00,315 basehttp 20516 15100 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:02:00,330 basehttp 20516 37912 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-05-04 17:02:00,330 basehttp 20516 36160 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-05-04 17:02:00,330 basehttp 20516 15032 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-05-04 17:02:00,337 basehttp 20516 32560 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-05-04 17:02:00,386 basehttp 20516 32560 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-05-04 17:02:00,390 basehttp 20516 15100 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-05-04 17:02:00,390 basehttp 20516 37912 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-05-04 17:02:00,390 basehttp 20516 15032 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-05-04 17:02:00,396 basehttp 20516 36160 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-05-04 17:04:59,378 basehttp 20516 36160 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-05-04 17:04:59,396 basehttp 20516 36160 "GET /admin/auth/user/ HTTP/1.1" 200 12645
+INFO 2024-05-04 17:04:59,414 basehttp 20516 36160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:05:06,788 basehttp 20516 36160 "GET /admin/auth/group/add/ HTTP/1.1" 200 14128
+INFO 2024-05-04 17:05:06,803 basehttp 20516 36160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:06:00,628 basehttp 20516 36160 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-05-04 17:06:00,646 basehttp 20516 36160 "GET /admin/auth/group/ HTTP/1.1" 200 9521
+INFO 2024-05-04 17:06:00,660 basehttp 20516 36160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:06:03,482 basehttp 20516 36160 "GET /admin/auth/user/ HTTP/1.1" 200 12731
+INFO 2024-05-04 17:06:03,498 basehttp 20516 36160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:06:06,399 basehttp 20516 36160 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24742
+INFO 2024-05-04 17:06:06,417 basehttp 20516 36160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:06:21,420 basehttp 20516 36160 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-05-04 17:06:21,440 basehttp 20516 36160 "GET /admin/auth/user/ HTTP/1.1" 200 12951
+INFO 2024-05-04 17:06:21,456 basehttp 20516 36160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:06:23,988 basehttp 20516 36160 "GET /admin/auth/group/ HTTP/1.1" 200 9308
+INFO 2024-05-04 17:06:24,003 basehttp 20516 36160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:06:26,399 basehttp 20516 36160 "GET /admin/auth/group/1/change/ HTTP/1.1" 200 14376
+INFO 2024-05-04 17:06:26,416 basehttp 20516 36160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-04 17:06:35,827 basehttp 20516 36160 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-04 17:06:38,341 basehttp 20516 36160 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-04 17:06:38,352 basehttp 20516 36160 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-04 17:06:50,624 basehttp 20516 36160 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-04 17:06:50,637 basehttp 20516 36160 "GET /admin/ HTTP/1.1" 200 4889
+INFO 2024-05-05 20:05:49,842 autoreload 12940 1952 Watching for file changes with StatReloader
+INFO 2024-05-05 20:05:57,727 basehttp 12940 31672 "GET /admin/ HTTP/1.1" 200 4889
+INFO 2024-05-05 20:06:02,539 basehttp 12940 31672 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-05 20:06:05,566 basehttp 12940 31672 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:06:05,636 basehttp 12940 31672 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-05 20:06:14,521 basehttp 12940 31672 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:06:14,544 basehttp 12940 31672 "GET /admin/ HTTP/1.1" 200 8579
+INFO 2024-05-05 20:08:12,127 autoreload 12940 1952 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp3\admin.py changed, reloading.
+INFO 2024-05-05 20:08:13,297 autoreload 26012 17388 Watching for file changes with StatReloader
+INFO 2024-05-05 20:08:13,799 basehttp 26012 6572 "GET /admin/ HTTP/1.1" 200 9694
+INFO 2024-05-05 20:13:30,435 basehttp 26012 37340 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-05 20:13:32,565 basehttp 26012 37340 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:13:32,775 basehttp 26012 37340 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-05 20:13:38,051 basehttp 26012 37340 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:13:38,073 basehttp 26012 37340 "GET /admin/ HTTP/1.1" 200 4889
+INFO 2024-05-05 20:14:40,586 basehttp 26012 37340 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-05 20:14:43,995 basehttp 26012 37340 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:14:44,033 basehttp 26012 37340 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-05 20:14:49,190 basehttp 26012 37340 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:14:49,213 basehttp 26012 37340 "GET /admin/ HTTP/1.1" 200 9694
+INFO 2024-05-05 20:14:53,484 basehttp 26012 37340 "GET /admin/auth/user/ HTTP/1.1" 200 14425
+INFO 2024-05-05 20:14:53,642 basehttp 26012 37340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:14:56,072 basehttp 26012 37340 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27031
+INFO 2024-05-05 20:14:56,111 basehttp 26012 37340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:15:27,674 basehttp 26012 37340 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:15:27,706 basehttp 26012 37340 "GET /admin/auth/user/ HTTP/1.1" 200 14645
+INFO 2024-05-05 20:15:27,734 basehttp 26012 37340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:15:35,248 basehttp 26012 37340 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-05 20:15:37,510 basehttp 26012 37340 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:15:37,546 basehttp 26012 37340 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-05 20:15:43,119 basehttp 26012 37340 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:15:43,141 basehttp 26012 37340 "GET /admin/ HTTP/1.1" 200 5428
+INFO 2024-05-05 20:15:45,551 basehttp 26012 37340 "GET /admin/myapp3/post/ HTTP/1.1" 200 17498
+INFO 2024-05-05 20:15:48,222 basehttp 26012 37340 "GET /admin/myapp3/post/93/change/ HTTP/1.1" 200 10527
+INFO 2024-05-05 20:15:48,275 basehttp 26012 37340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:15:51,999 basehttp 26012 37340 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-05-05 20:15:54,362 basehttp 26012 37340 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:15:54,396 basehttp 26012 37340 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-05 20:15:59,820 basehttp 26012 37340 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:15:59,845 basehttp 26012 37340 "GET /admin/ HTTP/1.1" 200 10064
+INFO 2024-05-05 20:32:12,654 basehttp 26012 38468 "GET /admin/myapp5/category/ HTTP/1.1" 200 9111
+INFO 2024-05-05 20:32:12,680 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:32:15,146 basehttp 26012 38468 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9952
+INFO 2024-05-05 20:32:15,211 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:32:25,465 basehttp 26012 38468 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:32:25,531 basehttp 26012 38468 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 10242
+INFO 2024-05-05 20:32:25,595 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:32:30,042 basehttp 26012 38468 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:32:30,120 basehttp 26012 38468 "GET /admin/myapp5/category/ HTTP/1.1" 200 11178
+INFO 2024-05-05 20:32:30,163 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:32:33,528 basehttp 26012 38468 "GET /admin/myapp5/product/ HTTP/1.1" 200 9104
+INFO 2024-05-05 20:32:33,586 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:32:35,958 basehttp 26012 38468 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11821
+INFO 2024-05-05 20:32:36,018 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:32:44,878 basehttp 26012 38468 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:32:44,952 basehttp 26012 38468 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12102
+INFO 2024-05-05 20:32:45,021 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:32:53,489 basehttp 26012 38468 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:32:53,562 basehttp 26012 38468 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12108
+INFO 2024-05-05 20:32:53,600 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:32:58,987 basehttp 26012 38468 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4444
+INFO 2024-05-05 20:32:59,025 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:33:07,647 basehttp 26012 38468 "POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 421
+INFO 2024-05-05 20:33:07,856 basehttp 26012 38468 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2024-05-05 20:33:11,079 basehttp 26012 38468 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:33:11,148 basehttp 26012 38468 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12155
+INFO 2024-05-05 20:33:11,213 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:33:19,899 basehttp 26012 38468 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:33:19,983 basehttp 26012 38468 "GET /admin/myapp5/product/ HTTP/1.1" 200 11839
+INFO 2024-05-05 20:33:20,051 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:33:26,197 basehttp 26012 38468 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 12088
+INFO 2024-05-05 20:33:26,222 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:33:28,579 basehttp 26012 38468 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 9158
+INFO 2024-05-05 20:33:28,612 basehttp 26012 38468 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-05-05 20:33:33,959 basehttp 26012 38468 "POST /admin/myapp5/product/1/delete/ HTTP/1.1" 302 0
+INFO 2024-05-05 20:33:34,031 basehttp 26012 38468 "GET /admin/myapp5/product/ HTTP/1.1" 200 11459
+INFO 2024-05-05 20:33:34,078 basehttp 26012 38468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 20:36:56,689 autoreload 26012 17388 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\models.py changed, reloading.
+INFO 2024-05-05 20:36:57,769 autoreload 22316 36952 Watching for file changes with StatReloader
+INFO 2024-05-05 21:03:19,196 autoreload 38312 1216 Watching for file changes with StatReloader
+INFO 2024-05-05 21:03:24,715 basehttp 38312 36596 "GET /admin/myapp5/product/ HTTP/1.1" 200 11297
+INFO 2024-05-05 21:03:24,799 basehttp 38312 36596 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:03:42,803 basehttp 38312 36596 "GET /admin/myapp5/product/ HTTP/1.1" 200 11297
+INFO 2024-05-05 21:03:42,846 basehttp 38312 36596 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:03:45,429 basehttp 38312 36596 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14644
+INFO 2024-05-05 21:03:45,479 basehttp 38312 36596 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:04:04,592 basehttp 38312 36596 "POST /admin/myapp5/product/4/change/ HTTP/1.1" 200 14887
+INFO 2024-05-05 21:04:04,669 basehttp 38312 36596 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:04:28,013 basehttp 38312 36596 "POST /admin/myapp5/product/4/change/ HTTP/1.1" 302 0
+INFO 2024-05-05 21:04:28,088 basehttp 38312 36596 "GET /admin/myapp5/product/ HTTP/1.1" 200 11515
+INFO 2024-05-05 21:04:28,143 basehttp 38312 36596 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:05:46,739 autoreload 38312 1216 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:05:47,810 autoreload 25316 7704 Watching for file changes with StatReloader
+INFO 2024-05-05 21:07:06,745 autoreload 25316 7704 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:07:07,832 autoreload 18484 37312 Watching for file changes with StatReloader
+INFO 2024-05-05 21:07:19,691 basehttp 18484 35724 "GET /admin/myapp5/product/ HTTP/1.1" 200 11841
+INFO 2024-05-05 21:07:19,715 basehttp 18484 35724 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:07:29,022 basehttp 18484 35724 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 12249
+INFO 2024-05-05 21:07:29,082 basehttp 18484 35724 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:07:30,398 basehttp 18484 35724 "GET /admin/myapp5/product/?o=-2 HTTP/1.1" 200 12255
+INFO 2024-05-05 21:07:30,461 basehttp 18484 35724 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:07:32,348 basehttp 18484 35724 "GET /admin/myapp5/product/?o=1.-2 HTTP/1.1" 200 12747
+INFO 2024-05-05 21:07:32,409 basehttp 18484 35724 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:08:58,823 autoreload 18484 37312 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:09:00,770 autoreload 38804 11568 Watching for file changes with StatReloader
+INFO 2024-05-05 21:09:01,428 basehttp 38804 39212 "GET /admin/myapp5/product/?o=1.-2 HTTP/1.1" 200 12747
+INFO 2024-05-05 21:09:01,485 basehttp 38804 39212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:09:05,574 basehttp 38804 39212 "GET /admin/myapp5/product/?o=1.-2 HTTP/1.1" 200 12747
+INFO 2024-05-05 21:09:05,636 basehttp 38804 39212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:09:11,221 basehttp 38804 39212 "GET /admin/myapp5/category/ HTTP/1.1" 200 11321
+INFO 2024-05-05 21:09:11,287 basehttp 38804 39212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:09:12,571 basehttp 38804 39212 "GET /admin/myapp5/product/ HTTP/1.1" 200 12631
+INFO 2024-05-05 21:09:12,639 basehttp 38804 39212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:09:59,992 autoreload 38804 11568 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:10:01,150 autoreload 20416 34000 Watching for file changes with StatReloader
+INFO 2024-05-05 21:10:02,340 basehttp 20416 31564 "GET /admin/myapp5/product/ HTTP/1.1" 200 14031
+INFO 2024-05-05 21:10:02,364 basehttp 20416 31564 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:11:38,672 basehttp 20416 31564 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14644
+INFO 2024-05-05 21:11:38,703 basehttp 20416 31564 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:11:53,143 basehttp 20416 31564 "POST /admin/myapp5/product/4/change/ HTTP/1.1" 302 0
+INFO 2024-05-05 21:11:53,226 basehttp 20416 31564 "GET /admin/myapp5/product/ HTTP/1.1" 200 14305
+INFO 2024-05-05 21:11:53,292 basehttp 20416 31564 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:11:56,032 basehttp 20416 31564 "GET /admin/myapp5/product/?price=456.00 HTTP/1.1" 200 13638
+INFO 2024-05-05 21:11:56,093 basehttp 20416 31564 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:11:58,207 basehttp 20416 31564 "GET /admin/myapp5/product/? HTTP/1.1" 200 14087
+INFO 2024-05-05 21:11:58,244 basehttp 20416 31564 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:12:33,059 autoreload 20416 34000 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:12:34,081 autoreload 23212 36092 Watching for file changes with StatReloader
+INFO 2024-05-05 21:12:55,967 autoreload 23212 36092 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:12:57,044 autoreload 19556 24544 Watching for file changes with StatReloader
+INFO 2024-05-05 21:12:57,799 basehttp 19556 32008 "GET /admin/myapp5/product/? HTTP/1.1" 200 14595
+INFO 2024-05-05 21:12:57,821 basehttp 19556 32008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:14:30,970 basehttp 19556 32008 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 14620
+INFO 2024-05-05 21:14:31,002 basehttp 19556 32008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:14:42,706 basehttp 19556 32008 "POST /admin/myapp5/product/3/change/ HTTP/1.1" 302 0
+INFO 2024-05-05 21:14:42,797 basehttp 19556 32008 "GET /admin/myapp5/product/ HTTP/1.1" 200 14807
+INFO 2024-05-05 21:14:42,866 basehttp 19556 32008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:14:48,301 basehttp 19556 32008 "GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81 HTTP/1.1" 200 12146
+INFO 2024-05-05 21:14:48,362 basehttp 19556 32008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:14:55,890 basehttp 19556 32008 "GET /admin/myapp5/product/?q=%D0%92%D0%BA%D1%83%D1%81 HTTP/1.1" 200 14476
+INFO 2024-05-05 21:14:55,951 basehttp 19556 32008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:15:44,432 basehttp 19556 32008 "GET /admin/myapp5/product/? HTTP/1.1" 200 14595
+INFO 2024-05-05 21:15:44,501 basehttp 19556 32008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:15:50,813 basehttp 19556 32008 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 14634
+INFO 2024-05-05 21:15:50,881 basehttp 19556 32008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:15:53,773 basehttp 19556 32008 "GET /admin/myapp5/product/? HTTP/1.1" 200 14595
+INFO 2024-05-05 21:16:01,655 basehttp 19556 32008 "POST /admin/myapp5/product/? HTTP/1.1" 200 9286
+INFO 2024-05-05 21:16:03,703 basehttp 19556 32008 "GET /admin/myapp5/product/? HTTP/1.1" 200 14595
+INFO 2024-05-05 21:16:52,824 autoreload 19556 24544 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:16:53,934 autoreload 36140 7400 Watching for file changes with StatReloader
+INFO 2024-05-05 21:16:54,555 basehttp 36140 32096 "GET /admin/myapp5/product/? HTTP/1.1" 200 14595
+INFO 2024-05-05 21:16:54,577 basehttp 36140 32096 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:18:04,550 autoreload 36140 7400 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:18:06,462 autoreload 22520 14508 Watching for file changes with StatReloader
+INFO 2024-05-05 21:18:10,159 basehttp 22520 36064 "GET /admin/myapp5/product/? HTTP/1.1" 200 14688
+INFO 2024-05-05 21:18:10,181 basehttp 22520 36064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:18:20,814 basehttp 22520 36064 "POST /admin/myapp5/product/? HTTP/1.1" 302 0
+INFO 2024-05-05 21:18:20,880 basehttp 22520 36064 "GET /admin/myapp5/product/ HTTP/1.1" 200 14688
+INFO 2024-05-05 21:18:20,924 basehttp 22520 36064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:23:00,377 autoreload 22520 14508 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:23:02,663 autoreload 32356 30960 Watching for file changes with StatReloader
+INFO 2024-05-05 21:23:10,263 basehttp 32356 22580 "GET /admin/myapp5/product/ HTTP/1.1" 200 14688
+INFO 2024-05-05 21:23:10,290 basehttp 32356 22580 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:23:12,367 basehttp 32356 22580 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 13848
+INFO 2024-05-05 21:23:12,405 basehttp 32356 22580 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:24:59,844 autoreload 32356 30960 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:25:01,031 autoreload 16616 37560 Watching for file changes with StatReloader
+INFO 2024-05-05 21:25:31,820 autoreload 16616 37560 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:25:33,150 autoreload 14864 11360 Watching for file changes with StatReloader
+INFO 2024-05-05 21:25:49,976 autoreload 14864 11360 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:25:51,172 autoreload 8736 39652 Watching for file changes with StatReloader
+INFO 2024-05-05 21:26:36,819 autoreload 8736 39652 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\admin.py changed, reloading.
+INFO 2024-05-05 21:26:38,195 autoreload 26172 29756 Watching for file changes with StatReloader
+INFO 2024-05-05 21:27:02,546 basehttp 26172 22224 "GET /admin/myapp5/product/ HTTP/1.1" 200 14688
+INFO 2024-05-05 21:27:04,997 basehttp 26172 22224 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 15760
+INFO 2024-05-05 21:27:05,025 basehttp 26172 33132 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-05 21:27:05,102 basehttp 26172 22224 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-05-07 22:54:53,384 autoreload 30980 16284 Watching for file changes with StatReloader
+INFO 2024-05-07 22:55:40,710 basehttp 30980 39376 "GET / HTTP/1.1" 200 10005
+INFO 2024-05-07 22:55:40,738 basehttp 30980 35364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-05-07 22:55:40,738 basehttp 30980 39376 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-05-07 22:55:40,744 basehttp 30980 24036 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-05-07 22:55:40,760 basehttp 30980 35364 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2024-05-07 22:55:58,072 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=HistoryPanel HTTP/1.1" 200 2505
+INFO 2024-05-07 22:55:58,083 basehttp 30980 35364 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-05-07 22:56:12,801 basehttp 30980 35364 "GET /__debug__/history_sidebar/?store_id=67000b29742b43b696cd00f61e7c8589&exclude_history=True HTTP/1.1" 200 10772
+INFO 2024-05-07 22:56:29,788 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-05-07 22:56:49,243 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=SettingsPanel HTTP/1.1" 200 27027
+INFO 2024-05-07 22:58:04,725 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=HeadersPanel HTTP/1.1" 200 5212
+INFO 2024-05-07 22:58:09,348 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=RequestPanel HTTP/1.1" 200 2373
+INFO 2024-05-07 22:58:42,228 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2024-05-07 22:59:24,582 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=StaticFilesPanel HTTP/1.1" 200 32600
+INFO 2024-05-07 22:59:48,305 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=TemplatesPanel HTTP/1.1" 200 6563
+INFO 2024-05-07 23:00:29,264 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-05-07 23:00:33,289 basehttp 30980 35364 "GET /__debug__/render_panel/?store_id=67000b29742b43b696cd00f61e7c8589&panel_id=SignalsPanel HTTP/1.1" 200 2231
+INFO 2024-05-07 23:20:35,188 autoreload 18484 29056 Watching for file changes with StatReloader
+WARNING 2024-05-07 23:20:38,750 log 18484 22112 Not Found: /products/
+WARNING 2024-05-07 23:20:38,751 basehttp 18484 22112 "GET /products/ HTTP/1.1" 404 12872
+INFO 2024-05-07 23:20:50,636 basehttp 18484 22112 "GET /admin/ HTTP/1.1" 200 22059
+INFO 2024-05-07 23:20:50,690 basehttp 18484 22112 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-05-07 23:20:56,043 basehttp 18484 22112 "GET /admin/myapp5/product/ HTTP/1.1" 200 132052
+INFO 2024-05-07 23:20:56,160 basehttp 18484 22112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-07 23:21:20,922 basehttp 18484 22112 "GET /admin/myapp5/product/?p=11 HTTP/1.1" 200 87542
+INFO 2024-05-07 23:21:20,999 basehttp 18484 22112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-07 23:21:25,555 basehttp 18484 22112 "GET /admin/myapp5/product/?p=9 HTTP/1.1" 200 135525
+INFO 2024-05-07 23:21:25,711 basehttp 18484 22112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-07 23:31:48,052 autoreload 18484 29056 C:\Users\p.bazhin\new_project\Django_fr\myproject\myapp5\models.py changed, reloading.
+INFO 2024-05-07 23:31:49,445 autoreload 13552 21748 Watching for file changes with StatReloader
+INFO 2024-05-07 23:38:04,691 autoreload 33540 2908 Watching for file changes with StatReloader
+WARNING 2024-05-07 23:38:21,050 log 33540 27156 Not Found: /les6
+WARNING 2024-05-07 23:38:21,051 basehttp 33540 27156 "GET /les6 HTTP/1.1" 404 12956
+WARNING 2024-05-07 23:38:28,441 log 33540 27156 Not Found: /les6/
+WARNING 2024-05-07 23:38:28,442 basehttp 33540 27156 "GET /les6/ HTTP/1.1" 404 13369
+INFO 2024-05-07 23:38:36,937 basehttp 33540 27156 "GET /les6/db HTTP/1.1" 200 10857
+INFO 2024-05-07 23:38:36,975 basehttp 33540 23856 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2024-05-07 23:38:45,708 basehttp 33540 23856 "GET /les6/db/ HTTP/1.1" 200 10616
+INFO 2024-05-07 23:39:40,590 basehttp 33540 23856 "GET /__debug__/render_panel/?store_id=3c7a8eef380f498e9dedd49629d924dc&panel_id=SQLPanel HTTP/1.1" 200 5362
+INFO 2024-05-07 23:40:36,557 basehttp 33540 23856 "GET /les6/view HTTP/1.1" 200 10863
+INFO 2024-05-07 23:40:38,703 basehttp 33540 36908 "GET /les6/view/ HTTP/1.1" 200 10601
+INFO 2024-05-07 23:40:59,061 basehttp 33540 36908 "GET /__debug__/render_panel/?store_id=049d0c11cbf543f1826dfebdcf2f4b68&panel_id=SQLPanel HTTP/1.1" 200 6569
+INFO 2024-05-07 23:41:33,157 basehttp 33540 36908 "GET /__debug__/render_panel/?store_id=049d0c11cbf543f1826dfebdcf2f4b68&panel_id=ProfilingPanel HTTP/1.1" 200 39891
+INFO 2024-05-08 20:44:36,345 basehttp 33540 36840 "GET /les6/db HTTP/1.1" 200 10857
+INFO 2024-05-08 20:44:36,372 basehttp 33540 10360 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 304 0
+INFO 2024-05-08 20:44:36,374 basehttp 33540 28808 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-05-08 20:44:36,374 basehttp 33540 24804 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-05-08 20:44:36,380 basehttp 33540 10360 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-05-08 20:44:36,389 basehttp 33540 10360 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-05-08 20:44:38,883 basehttp 33540 10360 "GET /les6/db/ HTTP/1.1" 200 10615
+INFO 2024-05-08 20:44:51,576 basehttp 33540 10360 "GET /les6/view HTTP/1.1" 200 10863
+INFO 2024-05-08 20:44:54,620 basehttp 33540 24804 "GET /les6/view/ HTTP/1.1" 200 10601
+INFO 2024-05-08 22:31:09,628 basehttp 33540 36252 "GET /__debug__/render_panel/?store_id=c5d1b0f57ca743dbb3bccab6dffb61df&panel_id=SQLPanel HTTP/1.1" 200 6569
+INFO 2024-05-08 22:31:26,798 basehttp 33540 36252 "GET /__debug__/render_panel/?store_id=c5d1b0f57ca743dbb3bccab6dffb61df&panel_id=ProfilingPanel HTTP/1.1" 200 42226
+INFO 2024-05-08 22:32:06,908 basehttp 33540 36252 "GET /les6/template/ HTTP/1.1" 200 10585
+INFO 2024-05-08 22:32:12,036 basehttp 33540 36252 "GET /__debug__/render_panel/?store_id=2b61805f313e43e186810be47e625a3d&panel_id=SQLPanel HTTP/1.1" 200 24549
+INFO 2024-05-08 22:32:34,153 basehttp 33540 36252 "GET /__debug__/render_panel/?store_id=2b61805f313e43e186810be47e625a3d&panel_id=TemplatesPanel HTTP/1.1" 200 7197
+INFO 2024-05-08 22:33:52,337 basehttp 33540 36252 "GET /__debug__/render_panel/?store_id=2b61805f313e43e186810be47e625a3d&panel_id=HistoryPanel HTTP/1.1" 200 18936
+INFO 2024-05-08 22:33:52,351 basehttp 33540 36252 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2024-05-08 22:42:10,597 autoreload 33540 2908 C:\Users\p.bazhin\new_project\Django_fr\myproject\myproject\settings.py changed, reloading.
+INFO 2024-05-08 23:08:21,167 autoreload 23288 29988 Watching for file changes with StatReloader
